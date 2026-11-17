@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Backlog | GameShelf</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body class="backlog-page">
+
+    <header>
+        <h1>My Backlog</h1>
+        <p>Games I plan to play.</p>
+        <nav>
+        <ul>
+            <li>
+                <a href="index.html">Dashboard</a>
+            </li>
+            <li> <a href="upcoming.html">Upcoming</a> 
+            </li>
+        </ul>
+        </nav>
+    </header>
+
+    <main>
+  
+<main>
+    <section class="game-section">
+        <h2>My Backlog</h2>
+
+        <div class="backlog-controls">
+            <div class="control-group">
+                <label for="backlog-search">Search games</label>
+                <input
+                    type="search"
+                    id="backlog-search"
+                    placeholder="Search your backlog..."
+                >
+            </div>
+
+            <div class="control-group">
+                <label for="backlog-sort">Sort by</label>
+                <select id="backlog-sort">
+                    <option value="priority">Original priority</option>
+                    <option value="az">Title A-Z</option>
+                    <option value="za">Title Z-A</option>
+                </select>
+            </div>
+        </div>
+
+        <p id="no-results" hidden>
+            No games match your search.
+        </p>
+
+        <ol class="game-list" id="backlog-list"></ol>
+    </section>
+</main>
+
+    <footer>
+        <p>&copy; 2026 GameShelf. DUN0030</p>
+    </footer>
+
+</body>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Upcoming Games | GameShelf</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <header>
+        <h1>Upcoming Games</h1>
+        <p>Games I'm looking forward to coming out.</p>
+        <nav>
+        <ul>
+            <li>
+                <a href="index.html">Dashboard</a>
+            </li>
+            <li> <a href="backlog.html">Backlog</a> 
+            </li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        
+<section class="game-section">
+    <h2>Upcoming Releases</h2>
+
+    <div class="control-group upcoming-controls">
+        <label for="upcoming-sort">Sort by</label>
+
+        <select id="upcoming-sort">
+            <option value="default">Original order</option>
+            <option value="date">Release date</option>
+            <option value="az">Title A-Z</option>
+        </select>
+    </div>
+
+    <ul class="game-list" id="upcoming-list"></ul>
+</section>
+
+        </main>
+    <footer>
+        <p>&copy; 2026 GameShelf. DUN0030</p>
+    </footer>
+</body>
+</html>

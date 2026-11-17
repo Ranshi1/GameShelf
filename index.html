@@ -1,0 +1,54 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>GameShelf</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+
+    <header>
+        <h1>GameShelf</h1>
+        <p>My personal gaming tracker.</p>
+        <nav>
+        <ul>
+            <li>
+                <a href="backlog.html">Backlog</a>
+            </li>
+            <li>
+                <a href="upcoming.html">Upcoming</a>
+            </li>
+        </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="dashboard-stats">
+        <div class="stat-card">
+        <h2 id="playing-count">-</h2>
+        <p>Currently Playing</p>
+        </div>
+
+    <div class="stat-card">
+        <h2 id="backlog-count">-</h2>
+        <p>Backlog</p>
+    </div>
+
+    <div class="stat-card">
+        <h2 id="upcoming-count">-</h2>
+        <p>Upcoming</p>
+    </div>
+</section>
+
+        <section class="game-section">
+            <h2>Currently Playing</h2>
+            <ul class="game-list" id="playing-list"></ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 GameShelf. DUN0030</p>
+    </footer>
+</body>
+</html>
